@@ -1,21 +1,18 @@
+# Salesforce DX Project: Next Steps
 
-# Project-1: Poke-TradR
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-## Description
+## How Do You Plan to Deploy Your Changes?
 
-The Pokemon trader Application is where Traders can communicate with each other and make Offers. They can ask questions on a post board about the various Trades and Offers, as well as speak directly to each other. They can get a visual representation of the trade along with a list of offers that are on that trade. There will be a log in portal that saves the user and then populates the App with their personal info, restricting access to only their records. Trainers will also be able to create complaints for problematic users as well as view Trainers with complaints to see if they are people they would like to work with.
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Technologies Used
+## Configure Your Salesforce DX Project
 
-- Experience Cloud
-- Apex Triggers
-- Git
-- Agile-Scrum
-- Visual Studio Code
-- SOQL
-- SOSL
-- Salesforce
-- Visualforce
-- Apex
-- Apex Testing
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
+## Read All About It
+
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
