@@ -1,12 +1,35 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "Core",
+            "package": "Core",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        },
+        {
+            "path": "PokeTradR",
+            "package": "PokeTrader",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.1.NEXT",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "Core",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        }
+    ],
+    "name": "MyFirstProject",
+    "namespace": "",
+    "sfdcLoginUrl": "https://cunning-bear-sdlvq7-dev-ed.my.salesforce.com/",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "PokeTrader": "0Ho5e0000008OhKCAU",
+        "PokeTrader@0.1.0-1": "04t5e000000qHFaAAM",
+        "PokeTrader@0.1.1-1": "04t5e000000qHJnAAM",
+        "Core": "0Ho5e0000008OhPCAU",
+        "Core@0.1.0-1": "04t5e000000qHO0AAM"
     }
-  ],
-  "name": "MyFirstProject",
-  "namespace": "",
-  "sfdcLoginUrl": "https://cunning-bear-sdlvq7-dev-ed.my.salesforce.com/",
-  "sourceApiVersion": "48.0"
 }
