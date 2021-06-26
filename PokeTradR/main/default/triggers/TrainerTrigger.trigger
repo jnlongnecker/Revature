@@ -6,7 +6,6 @@ trigger TrainerTrigger on Trainer__c (before insert, before update, before delet
         }else if(Trigger.isUpdate){
             TrainerTradeUpdate.addOneTrade(Trigger.new,Trigger.old);
             TrainerOfferUpdate.addOneOffer(Trigger.new,Trigger.old);
-            TrainerRankUpdate.checkRank(Trigger.new);
             
         }else if(Trigger.isDelete){
             for(Trainer__c t: Trigger.old){
